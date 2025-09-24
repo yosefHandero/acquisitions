@@ -1,0 +1,54 @@
+{
+  "appearance": {
+    "theme": "Pro",
+    "font_size": 14,
+    "cursor_style": "Block",
+    "background_opacity": 0.95
+  },
+  "terminal": {
+    "scrollback_lines": 10000,
+    "enable_mouse": true,
+    "enable_bell": false,
+    "tab_title": "Acquisitions API"
+  },
+  "keybindings": {
+    "custom": [
+      {
+        "key": "ctrl+d",
+        "command": "npm run dev",
+        "description": "Start development server"
+      },
+      {
+        "key": "ctrl+l",
+        "command": "npm run lint",
+        "description": "Run linter"
+      },
+      {
+        "key": "ctrl+shift+f",
+        "command": "npm run format",
+        "description": "Format code"
+      },
+      {
+        "key": "ctrl+shift+d",
+        "command": "npm run db:studio",
+        "description": "Open database studio"
+      }
+    ]
+  },
+  "suggestions": {
+    "enabled": true,
+    "show_descriptions": true,
+    "auto_complete": true
+  },
+  "environment": {
+    "NODE_ENV": "development",
+    "FORCE_COLOR": "1",
+    "NPM_CONFIG_COLOR": "always"
+  },
+  "startup_command": ". .warp/aliases.ps1",
+  "working_directory": ".",
+  "project_detection": {
+    "enabled": true,
+    "indicators": ["package.json", "drizzle.config.js", ".env"]
+  }
+}
