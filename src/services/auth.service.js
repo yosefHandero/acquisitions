@@ -24,11 +24,13 @@ export const comparePassword = async (password, hashedPassword) => {
 
 export const createUser = async ({ name, email, password, role = 'user' }) => {
     try {
-        const existingUser = await db.query.users.findFirst({
-            where: eq(users.email, email),
-            columns: { id: true }
-        });
-        if (existingUser) throw new Error('User with this email already exists');
+        const existing = await db
+            .select({ id: users.id })
+            .from(users)
+            .where(eq(users.email, email))
+            .limit(1);
+
+        if (existing.length) throw new Error('User with this email already exists');
 
         const password_hash = await hashPassword(password);
 
