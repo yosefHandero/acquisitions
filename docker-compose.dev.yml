@@ -4,13 +4,16 @@ services:
   # Neon Local proxy for development
   neon-local:
     image: neondatabase/neon_local:latest
+    environment:
+      - NEON_PROJECT_ID=${NEON_PROJECT_ID}
+      - NEON_API_KEY=${NEON_API_KEY}
+      - NEON_DEFAULT_BRANCH=production
     container_name: neon-local
     ports:
       - '5432:5432'
     env_file:
       - .env.development
     volumes:
-      # Persist branch metadata per git branch (optional)
       - ./.neon_local/:/tmp/.neon_local
       - ./.git/HEAD:/tmp/.git/HEAD:ro,consistent
     healthcheck:

@@ -646,3 +646,95 @@
 {"level":"info","message":"[arcjet]","path":"/api/auth/sign-up","reason":"BOT","service":"acquisitions-api"}
 {"level":"error","message":"Signup error User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///app/src/services/auth.service.js:33:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signup (file:///app/src/controllers/auth.controller.js:21:22)"}
 {"level":"info","message":"172.18.0.1 - - [01/Oct/2025:21:39:02 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 31 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:03:27 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:04:01 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:04:16 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:04:27 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:04:40 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:18:29 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:18:39 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:18:44 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:18:46 +0000] \"GET /api HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:19:28 +0000] \"GET / HTTP/1.1\" 200 27 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/auth/sign-up","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: yosefpetrosh@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:20:47 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 108 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:22:00 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/user","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:22:24 +0000] \"GET /api/user HTTP/1.1\" 401 72 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:22:30 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:22:40 +0000] \"GET /api HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:22:42 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"RATE_LIMIT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:22:49 +0000] \"GET /health HTTP/1.1\" 429 61 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/user","reason":"RATE_LIMIT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:22:53 +0000] \"GET /user HTTP/1.1\" 429 61 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/users","reason":"RATE_LIMIT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:22:58 +0000] \"GET /users HTTP/1.1\" 429 61 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"RATE_LIMIT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:23:05 +0000] \"GET /api/users HTTP/1.1\" 429 61 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:25:14 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:25:42 +0000] \"POST /api HTTP/1.1\" 404 143 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:25:46 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:25:59 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/auth/sign-in","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"User yosefpetrosh@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: yosefpetrosh@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:27:30 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 120 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users/2","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:28:44 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:29:09 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:29:32 +0000] \"DELETE /api/users HTTP/1.1\" 404 151 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users/1","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:29:58 +0000] \"GET /api/users/1 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:30:22 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:30:28 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:30:36 +0000] \"GET /api HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:31:16 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:31:18 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/.well-known/appspecific/com.chrome.devtools.json","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:31:34 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:32:17 +0000] \"GET / HTTP/1.1\" 200 27 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/favicon.ico","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:32:19 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:32:30 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users/1","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:33:16 +0000] \"GET /api/users/1 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:34:25 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:46:28 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:46:34 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
