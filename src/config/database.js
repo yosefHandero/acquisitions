@@ -5,9 +5,9 @@ import { drizzle } from 'drizzle-orm/neon-http';
 import { users } from '#models/user.model.js';
 
 if (process.env.NODE_ENV === 'development') {
-    neonConfig.fetchEndpoint = 'http://neon-local:5432/sql';
-    neonConfig.useSecureWebSocket = false;
-    neonConfig.poolQueryViaFetch = true;
+  neonConfig.fetchEndpoint = 'http://neon-local:5432/sql';
+  neonConfig.useSecureWebSocket = false;
+  neonConfig.poolQueryViaFetch = true;
 }
 
 const sql = neon(process.env.DATABASE_URL);

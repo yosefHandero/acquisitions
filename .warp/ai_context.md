@@ -1,6 +1,7 @@
 # Acquisitions API - Project Context
 
 ## Technology Stack
+
 - **Runtime**: Node.js (ES Modules)
 - **Framework**: Express.js v5.1.0
 - **Database**: PostgreSQL (Neon serverless)
@@ -12,6 +13,7 @@
 - **Formatting**: Prettier v3.6.2
 
 ## Project Structure
+
 ```
 src/
 ├── app.js              # Express app configuration
@@ -37,7 +39,9 @@ src/
 ```
 
 ## Path Mapping
+
 The project uses import maps for clean imports:
+
 - `#src/*` → `./src/*`
 - `#config/*` → `./src/config/*`
 - `#controllers/*` → `./src/controllers/*`
@@ -49,6 +53,7 @@ The project uses import maps for clean imports:
 - `#validations/*` → `./src/validations/*`
 
 ## Available Scripts
+
 - `npm run dev` - Start development server with --watch
 - `npm run lint` - Run ESLint
 - `npm run lint:fix` - Fix ESLint issues
@@ -59,12 +64,14 @@ The project uses import maps for clean imports:
 - `npm run db:studio` - Open Drizzle Studio
 
 ## Database
+
 - Using Neon PostgreSQL serverless database
 - Drizzle ORM for type-safe database operations
 - Migration files in `drizzle/` directory
 - Database configuration in `src/config/database.js`
 
 ## Security & Middleware
+
 - Helmet for security headers
 - CORS enabled
 - Cookie parser for session management
@@ -73,14 +80,17 @@ The project uses import maps for clean imports:
 - Bcrypt for password hashing
 
 ## Logging
+
 - Winston logger configured in `src/config/logger.js`
 - Logs stored in `logs/combined.log` and `logs/error.log`
 
 ## Environment
+
 - Uses `.env` file for environment variables
 - Type: ES Module (package.json has "type": "module")
 
 ## Common Development Patterns
+
 - Controllers handle HTTP requests/responses
 - Services contain business logic
 - Models define database schemas

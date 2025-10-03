@@ -1,9 +1,9 @@
 import { Router } from 'express';
 import {
-    fetchAllUsers,
-    fetchUserById,
-    updateUserById,
-    deleteUserById,
+  fetchAllUsers,
+  fetchUserById,
+  updateUserById,
+  deleteUserById,
 } from '#controllers/users.controller.js';
 
 // ⬇️ use YOUR middleware file (note: singular "#middleware", not "#middlewares")
@@ -21,6 +21,11 @@ router.get('/:id', authenticateToken, fetchUserById);
 router.put('/:id', authenticateToken, updateUserById);
 
 // DELETE /api/users/:id -> admin only
-router.delete('/:id', authenticateToken, requireRole(['admin']), deleteUserById);
+router.delete(
+  '/:id',
+  authenticateToken,
+  requireRole(['admin']),
+  deleteUserById
+);
 
 export default router;

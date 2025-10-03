@@ -1,67 +1,67 @@
-name: "Acquisitions API"
-description: "Node.js/Express API with Drizzle ORM and Neon DB"
+name: 'Acquisitions API'
+description: 'Node.js/Express API with Drizzle ORM and Neon DB'
 
 # Project context for Warp AI
 context:
-  framework: "Express.js"
-  language: "JavaScript (ES Modules)"
-  database: "PostgreSQL (Neon)"
-  orm: "Drizzle ORM"
-  
+  framework: 'Express.js'
+  language: 'JavaScript (ES Modules)'
+  database: 'PostgreSQL (Neon)'
+  orm: 'Drizzle ORM'
+
 # Quick commands and workflows
 workflows:
-  - name: "Start Development Server"
-    command: "npm run dev"
-    description: "Start the Express server with --watch flag"
-    
-  - name: "Run Linter"
-    command: "npm run lint"
-    description: "Check code with ESLint"
-    
-  - name: "Fix Linting Issues"
-    command: "npm run lint:fix"
-    description: "Auto-fix ESLint issues"
-    
-  - name: "Format Code"
-    command: "npm run format"
-    description: "Format code with Prettier"
-    
-  - name: "Check Formatting"
-    command: "npm run format:check"
-    description: "Check if code is properly formatted"
-    
-  - name: "Generate Database Schema"
-    command: "npm run db:generate"
-    description: "Generate Drizzle schema migrations"
-    
-  - name: "Run Database Migrations"
-    command: "npm run db:migrate"
-    description: "Apply database migrations"
-    
-  - name: "Open Database Studio"
-    command: "npm run db:studio"
-    description: "Open Drizzle Studio for database management"
-    
-  - name: "Install Dependencies"
-    command: "npm install"
-    description: "Install all project dependencies"
-    
-  - name: "View Logs"
-    command: "Get-Content logs/combined.log -Tail 50"
-    description: "View the last 50 lines of application logs"
+  - name: 'Start Development Server'
+    command: 'npm run dev'
+    description: 'Start the Express server with --watch flag'
+
+  - name: 'Run Linter'
+    command: 'npm run lint'
+    description: 'Check code with ESLint'
+
+  - name: 'Fix Linting Issues'
+    command: 'npm run lint:fix'
+    description: 'Auto-fix ESLint issues'
+
+  - name: 'Format Code'
+    command: 'npm run format'
+    description: 'Format code with Prettier'
+
+  - name: 'Check Formatting'
+    command: 'npm run format:check'
+    description: 'Check if code is properly formatted'
+
+  - name: 'Generate Database Schema'
+    command: 'npm run db:generate'
+    description: 'Generate Drizzle schema migrations'
+
+  - name: 'Run Database Migrations'
+    command: 'npm run db:migrate'
+    description: 'Apply database migrations'
+
+  - name: 'Open Database Studio'
+    command: 'npm run db:studio'
+    description: 'Open Drizzle Studio for database management'
+
+  - name: 'Install Dependencies'
+    command: 'npm install'
+    description: 'Install all project dependencies'
+
+  - name: 'View Logs'
+    command: 'Get-Content logs/combined.log -Tail 50'
+    description: 'View the last 50 lines of application logs'
 
 # Environment setup
 environment:
-  NODE_ENV: "development"
-  
+  NODE_ENV: 'development'
+
 # Path mappings for better navigation
 paths:
-  controllers: "src/controllers"
-  models: "src/models"
-  routes: "src/routes"
-  services: "src/services"
-  utils: "src/utils"
-  validations: "src/validations"
-  config: "src/config"
-  migrations: "drizzle"
-  logs: "logs"
+  controllers: 'src/controllers'
+  models: 'src/models'
+  routes: 'src/routes'
+  services: 'src/services'
+  utils: 'src/utils'
+  validations: 'src/validations'
+  config: 'src/config'
+  migrations: 'drizzle'
+  logs: 'logs'

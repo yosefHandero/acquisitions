@@ -5,21 +5,27 @@ This directory contains Warp-specific configurations to optimize your developmen
 ## Files Overview
 
 ### `warp.yaml`
+
 Main project configuration defining:
+
 - Project metadata and context
 - Available workflows and commands
 - Environment settings
 - Path mappings for easy navigation
 
 ### `ai_context.md`
+
 Detailed project context for Warp AI, including:
+
 - Technology stack information
 - Project structure explanation
 - Available npm scripts
 - Development patterns and conventions
 
 ### `aliases.ps1`
+
 PowerShell aliases and functions for common tasks:
+
 - `dev` - Start development server
 - `lint` / `lintfix` - Run/fix ESLint
 - `fmt` / `fmtcheck` - Format/check code formatting
@@ -30,7 +36,9 @@ PowerShell aliases and functions for common tasks:
 - `info` - Show project information
 
 ### `settings.json`
+
 Terminal appearance and behavior settings:
+
 - Optimized theme and font settings
 - Custom keybindings for common commands
 - Environment variables for better color output
@@ -44,15 +52,15 @@ Terminal appearance and behavior settings:
 
 ## Quick Commands
 
-| Alias | Command | Description |
-|-------|---------|-------------|
-| `dev` | `npm run dev` | Start development server |
-| `lint` | `npm run lint` | Run ESLint |
-| `fmt` | `npm run format` | Format code with Prettier |
-| `dbstudio` | `npm run db:studio` | Open Drizzle Studio |
-| `logs` | Show application logs | View last 50 log entries |
-| `goc` | Go to controllers | Navigate to src/controllers |
-| `gos` | Go to services | Navigate to src/services |
+| Alias      | Command               | Description                 |
+| ---------- | --------------------- | --------------------------- |
+| `dev`      | `npm run dev`         | Start development server    |
+| `lint`     | `npm run lint`        | Run ESLint                  |
+| `fmt`      | `npm run format`      | Format code with Prettier   |
+| `dbstudio` | `npm run db:studio`   | Open Drizzle Studio         |
+| `logs`     | Show application logs | View last 50 log entries    |
+| `goc`      | Go to controllers     | Navigate to src/controllers |
+| `gos`      | Go to services        | Navigate to src/services    |
 
 ## Keyboard Shortcuts
 
@@ -64,6 +72,7 @@ Terminal appearance and behavior settings:
 ## Customization
 
 Feel free to modify any of these files to match your preferences:
+
 - Add new aliases in `aliases.ps1`
 - Update keybindings in `settings.json`
 - Extend project context in `ai_context.md`
