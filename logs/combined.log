@@ -738,3 +738,78 @@
 {"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:46:28 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36\"","service":"acquisitions-api"}
 {"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
 {"level":"info","message":"172.18.0.1 - - [02/Oct/2025:21:46:34 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:13:46 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:14:04 +0000] \"GET /api/users HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users/2","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:14:34 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:14:44 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:14:47 +0000] \"GET /api/users HTTP/1.1\" 403 68 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/auth/sign-in","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"User yosefpetrosh@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: yosefpetrosh@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:15:49 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 120 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:16:09 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:16:19 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:16:19 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/user","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:16:23 +0000] \"GET /api/user HTTP/1.1\" 401 72 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users/2","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:17:43 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/auth/sign-in","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"User yosefpetrosh@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: yosefpetrosh@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:18:29 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 120 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users/2","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:19:51 +0000] \"GET /api/users/2 HTTP/1.1\" 404 150 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:20:30 +0000] \"GET /api/users HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.6584\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/users","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:20:47 +0000] \"GET /api/users HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/user/2","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: yosefpetrosh@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"acquisitions-api"}
+{"level":"info","message":"User yosef@gmail.com retrieved successfully","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:22:43 +0000] \"GET /api/user/2 HTTP/1.1\" 200 192 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/user","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:27:22 +0000] \"GET /api/user HTTP/1.1\" 401 72 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/user","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: yosefpetrosh@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:28:39 +0000] \"GET /api/user HTTP/1.1\" 200 503 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/auth/sign-up","reason":"BOT","service":"acquisitions-api"}
+{"level":"error","message":"Signup error User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///app/src/services/auth.service.js:33:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signup (file:///app/src/controllers/auth.controller.js:21:22)"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:30:32 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 31 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/auth/sign-up","reason":"BOT","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: admin1@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:30:45 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 105 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api/user/1","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: admin1@gmail.com (admin)","service":"acquisitions-api"}
+{"level":"info","message":"Deleting user: 1","service":"acquisitions-api"}
+{"level":"info","message":"User admin@gmail.com deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"User admin@gmail.com deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"172.18.0.1 - - [03/Oct/2025:21:34:51 +0000] \"DELETE /api/user/1 HTTP/1.1\" 200 111 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [03/Oct/2025:22:14:48 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [03/Oct/2025:22:14:48 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/nonexistent","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [03/Oct/2025:22:14:48 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [03/Oct/2025:22:19:51 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [03/Oct/2025:22:19:51 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/nonexistent","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [03/Oct/2025:22:19:51 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/health","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [03/Oct/2025:22:20:44 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/api","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [03/Oct/2025:22:20:44 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"[arcjet]","path":"/nonexistent","reason":"ERROR","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [03/Oct/2025:22:20:44 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
